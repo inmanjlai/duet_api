@@ -1,15 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const { v4: uuidv4 } = require('uuid');
 const db = require('../db');
 
 const login = (req, res, user) => {
-    // create a new session and tie it to a user_id
-    // set a cookie with the session_id
-    // on subsequent calls when authorization is needed, pass the session cookie along
-	const uuid = uuidv4();
-	console.log(uuid);
-    console.log(user);
+    
 }
 
 router.post('/login', (req, res) => {
