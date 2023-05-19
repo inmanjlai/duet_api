@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #2d2d2d;
+    font-size: 98px;
+}
+
+h4 {
+    color: rgb(45, 45, 45, 0.3);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
