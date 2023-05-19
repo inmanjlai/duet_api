@@ -1,13 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../db')
-const { v5: uuidv5 } = require('uuid');
-
-const login = () => {
-    // create a new session and tie it to a user_id
-    // set a cookie with the session_id
-    // on subsequent calls when authorization is needed, pass the session cookie along
-}
 
 router.get('/', (req, res) => {
 	const sql = `SELECT id, fname, lname, username, email FROM users;`;

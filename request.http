@@ -7,3 +7,13 @@ Content-Type: application/json
     "username": "jackman",
     "email": "jackman@email.com"
 }
+
+###
+
+POST http://localhost:5005/auth/login
+Content-Type: application/json
+
+{
+    "username": "inmanjlai",
+    "hashed_password": "ww"
+}
